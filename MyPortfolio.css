@@ -1,3 +1,7 @@
-body{
-  background-color: black;
+img{
+  height:inherit;
+  width:inherit;
+}
+#portfolio{
+  padding: 20px;
 }

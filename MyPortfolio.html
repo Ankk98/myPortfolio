@@ -1,89 +1,134 @@
-<div class="container" id="portfolio">
+<!DOCTYPE html>
+<html lang="en">
 
-  <div class="navbar" id="navbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="MyPortfolio.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <title>My Portfolio</title>
+</head>
 
-  </div>
+<body class="bg-dark text-white">
+
+  <nav class="navbar navbar-expand-md sticky-top bg-primary navbar-dark" id="navbar">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="pill" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+
+    <span class="navbar-text">
+      Navbar text
+    </span>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
 
 
-  <div class="row" id="user_img">
+  <div class="container" id="portfolio">
+
+    <div class="row" id="user_img">
+
       <div class="col-md-4">
       </div>
       <div class="col-md-4">
-        <img src="https://drive.google.com/open?id=1_5y-4L6dlKJS8qHI-lj_6vUMrwkDm5Ny" class="img-responsive img-rounded">
-        <h1>Ankit Khandelwal</h1>
-        </div>
+        <img src="assets/dpSq.jpg" class="rounded-circle img-fluid">
+        <h1 class="font-weight-bold text-center">Ankit Khandelwal</h1>
+      </div>
       <div class="col-md-4">
       </div>
-      </div>
+    </div>
 
-  <div class="row" id="skills">
+    <div class="tab-pane active container row" id="skills">
       <div class="col-md-2" id="github">
-        </div>
+        <img src="" alt="">
+      </div>
       <div class="col-md-2" id="codechef">
-        </div>
+      </div>
       <div class="col-md-2" id="linkedin">
-        </div>
+      </div>
       <div class="col-md-2" id="xda">
-        </div>
+      </div>
       <div class="col-md-2" id="freecodecamp">
-        </div>
+      </div>
       <div class="col-md-2" id="steam">
-        </div>
-
-  </div>
-
-  <div class="row" id="my_work">
-  </div>
-
-  <div class="row" id="education">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-8 well">
+      </div>
 
     </div>
-    <div class="col-md-2">
-    </div>
-  </div>
 
-  <div class="row" id="intro-about-beleif-habits">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-8 well">
 
-    </div>
-    <div class="col-md-2">
-    </div>
-  </div>
 
-  <div class="row" id="future">
-    <div class="col-md-2">
+    <div class="row" id="projects">
     </div>
-    <div class="col-md-8 well">
 
-    </div>
-    <div class="col-md-2">
-    </div>
-  </div>
+    <div class="row" id="education">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 well">
 
-  <div class="row" id="contact">
-    <div class="col-md-2" id="contact1">
-      <p>linkedin gmail</p>
-        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div class="row" id="intro-about-beleif-habits">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 well">
+
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div class="row" id="future">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 well">
+
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div class="row" id="contact">
+      <div class="col-md-2" id="contact1">
+        <p>linkedin gmail</p>
+      </div>
       <div class="col-md-2" id="contact2">
         <p>facebook</p>
-        </div>
+      </div>
       <div class="col-md-2" id="contact3">
         <p>codechef</p>
-        </div>
+      </div>
       <div class="col-md-2" id="contact4">
         <p>github xda</p>
-        </div>
+      </div>
       <div class="col-md-2" id="contact5">
         <p>slack gitter irc</p>
-        </div>
+      </div>
       <div class="col-md-2" id="contact6">
         <p>steam discord</p>
-        </div>
+      </div>
+    </div>
+
   </div>
 
-</div>
+</body>
+
+</html>
